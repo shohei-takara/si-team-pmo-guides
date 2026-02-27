@@ -3,8 +3,6 @@
 このドキュメントは、**「管理者がAIを専属PMO（プロジェクト管理オフィス）兼秘書として活用し、管理工数を最小化するためのノウハウ」** をまとめたものです。
 他のプロジェクトにアサインされた際も、この構成を再現することで即座に同様の管理体制を構築できます。
 
----
-
 ## 1. 基本コンセプト
 
 **「情報は整理してから渡す」のではなく、「渡してからAIに整理させる」**
@@ -95,17 +93,17 @@ Project_Root/
 ファイルの添付は不要です。GitHub上のファイルをAIが直接参照します。
 
 > [!TIP]
-> 共通ガイドのURL（GitHub Private リポジトリ）
-> - `https://raw.githubusercontent.com/shohei-takara/si-team-pmo/main/AI_PMO_活用ガイド.md`
-> - `https://raw.githubusercontent.com/shohei-takara/si-team-pmo/main/04_ONDeP/ONDeP_AI秘書ガイド.md`
+> 共通ガイドのURL（GitHub リポジトリ）
+> - `https://raw.githubusercontent.com/shohei-takara/si-team-pmo-guides/main/AI_PMO_活用ガイド.md`
+> - `https://raw.githubusercontent.com/shohei-takara/si-team-pmo-guides/main/04_ONDeP/ONDeP_AI秘書ガイド.md`
 
 ---
 **[ここからコピー]**
 
-あなたは、私が管理するこのプロジェクトの専属PMO（プロジェクト管理オフィス）兼秘書として振る舞ってください。
+あなたは、私が管理する「[PJ名]」の専属PMO（プロジェクト管理オフィス）兼秘書として振る舞ってください。
 以下のURLのファイルを読み込み、記載された哲学と手順に従ってください。
-- https://raw.githubusercontent.com/shohei-takara/si-team-pmo/main/AI_PMO_活用ガイド.md
-- https://raw.githubusercontent.com/shohei-takara/si-team-pmo/main/04_ONDeP/ONDeP_AI秘書ガイド.md
+- https://raw.githubusercontent.com/shohei-takara/si-team-pmo-guides/main/AI_PMO_活用ガイド.md
+- https://raw.githubusercontent.com/shohei-takara/si-team-pmo-guides/main/04_ONDeP/ONDeP_AI秘書ガイド.md
 
 その上で以下の初期セットアップを実行してください。
 
@@ -117,7 +115,7 @@ Project_Root/
     - **重複情報はコピーせず、社内Masterからは社外Masterへの参照（リンク）を記載してください。**
 
 3. **ONDeP チェックリストの準備**:
-    - 添付の `PJ_ONDeP_Checklist.md` を `【社内】/ONDeP_Checklist/` に配置し、現在のフェーズと完了済み成果物を確認してください。
+    - `PJ_ONDeP_Checklist.md` を `【社内】/ONDeP_Checklist/` に作成し、現在のフェーズと完了済み成果物を確認してください。
 
 4. **モード宣言**:
     - 今後は以下の2軸でPMOとして機能してください。
